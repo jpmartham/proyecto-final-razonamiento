@@ -75,9 +75,9 @@ Hay que verificarlo, porque el notebook de referencia empieza directamente con l
 ## 6. Preguntas abiertas para el alumno
 
 1. ¿Cómo se recolectaron las hojas (lugar, fechas, quién las tomó)? ¿Cómo se midieron alto y ancho
-   (regla, foto + software, punto de medición)?
-2. ¿Se debe agregar también la sección de descripción y EDA al notebook de cáncer?
-3. ¿El reporte PDF se escribe aparte, o el notebook es la base del reporte?
+   (regla, foto + software, punto de medición)? Fueron recolectadas a mano, se midieron con software la mayoria, solo unas pocas con regla y a mano. Desde el inicio de la hoja sin contar el palito. 
+2. ¿Se debe agregar también la sección de descripción y EDA al notebook de cáncer? Si lo pide el documento de instrucciones si.
+3. ¿El reporte PDF se escribe aparte, o el notebook es la base del reporte? Se escribe basado en el notebook pero es un reporte de este mismo. 
 
 ## 7. Orden de trabajo para Claude Code
 
