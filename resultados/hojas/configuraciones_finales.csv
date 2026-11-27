@@ -1,0 +1,7 @@
+Modelo,Configuración final,Configuraciones empatadas
+k-NN,"n_neighbors=9, p=1, weights=uniform",32
+Naive Bayes,var_smoothing=1e-12,10
+SVM,"C=10, kernel=linear",15
+Árbol de decisión,"criterion=gini, max_depth=3, min_samples_leaf=2, min_samples_split=10",126
+Random Forest,"criterion=gini, max_depth=5, max_features=sqrt, n_estimators=100",54
+MLP,"activation=relu, alpha=0.01, hidden_layer_sizes=(10, 5), learning_rate_init=0.01",13

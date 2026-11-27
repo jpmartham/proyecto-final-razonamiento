@@ -1,0 +1,129 @@
+{
+  "n_muestras": 569,
+  "n_caracteristicas": 30,
+  "clases": [
+    "malignant",
+    "benign"
+  ],
+  "conteo_por_clase": {
+    "malignant": 212,
+    "benign": 357
+  },
+  "varianza_pc1": 44.27202560752637,
+  "varianza_pc2": 18.971182044033085,
+  "correlacion_radio_perimetro": 0.9978552814938106,
+  "pares_correlacion_mayor_08": 44,
+  "pares_correlacion_total": 435,
+  "matrices_confusion": {
+    "k-NN": [
+      [
+        197,
+        15
+      ],
+      [
+        5,
+        352
+      ]
+    ],
+    "Gaussian Naive Bayes": [
+      [
+        187,
+        25
+      ],
+      [
+        15,
+        342
+      ]
+    ],
+    "SVM": [
+      [
+        204,
+        8
+      ],
+      [
+        5,
+        352
+      ]
+    ],
+    "Árbol de decisión": [
+      [
+        190,
+        22
+      ],
+      [
+        17,
+        340
+      ]
+    ],
+    "Random Forest": [
+      [
+        196,
+        16
+      ],
+      [
+        10,
+        347
+      ]
+    ],
+    "MLP": [
+      [
+        193,
+        19
+      ],
+      [
+        3,
+        354
+      ]
+    ]
+  },
+  "parametros_finales": {
+    "k-NN": {
+      "metric": "minkowski",
+      "n_neighbors": 3,
+      "p": 1,
+      "weights": "uniform"
+    },
+    "Gaussian Naive Bayes": {
+      "var_smoothing": 0.1
+    },
+    "SVM": {
+      "C": 10,
+      "gamma": "scale",
+      "kernel": "rbf"
+    },
+    "Árbol de decisión": {
+      "criterion": "entropy",
+      "max_depth": null,
+      "min_samples_leaf": 5,
+      "min_samples_split": 2
+    },
+    "Random Forest": {
+      "n_estimators": 300,
+      "criterion": "entropy",
+      "max_depth": null,
+      "max_features": "sqrt"
+    },
+    "MLP": {
+      "activation": "logistic",
+      "alpha": 0.015352246941973482,
+      "hidden_layer_sizes": [
+        100
+      ],
+      "learning_rate_init": 0.0036256176345762273
+    }
+  },
+  "jerarquico": {
+    "linkage": "average",
+    "metrica": "cosine",
+    "k": 2,
+    "silueta": 0.46873423660399616,
+    "ari": 0.779598877208407,
+    "nmi": 0.6815945697010094
+  },
+  "kmeans": {
+    "k": 2,
+    "silueta": 0.3449740051034408,
+    "ari": 0.6707206476880808,
+    "nmi": 0.554612218410556
+  }
+}

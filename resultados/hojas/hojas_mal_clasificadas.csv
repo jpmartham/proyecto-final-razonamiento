@@ -1,0 +1,6 @@
+ID hoja,Árbol,Alto (cm),Ancho (cm),k-NN,Naive Bayes,SVM,Árbol de decisión,Random Forest,MLP
+10,Limón,7.6,3.6,,,,Fresno,Fresno,
+37,Limón,7.5,3.9,,,,Fresno,,
+103,Fresno,8.0,2.4,,Limón,,,,
+123,Fresno,7.6,2.4,Limón,Limón,Limón,Limón,Limón,Limón
+144,Fresno,7.9,2.2,,Limón,,,,

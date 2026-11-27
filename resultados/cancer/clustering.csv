@@ -1,0 +1,3 @@
+Posición,Método,Configuración final,Espacio de ajuste,Coeficiente de silueta,ARI,NMI
+1,Clustering jerárquico,"k=2, linkage=average, métrica=cosine",30 características escaladas,0.46873423660399616,0.779598877208407,0.6815945697010094
+2,K-means,k=2,30 características escaladas,0.3449740051034408,0.6707206476880808,0.554612218410556

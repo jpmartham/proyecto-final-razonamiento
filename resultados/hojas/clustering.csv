@@ -1,0 +1,3 @@
+Método,Configuración,Clústeres,Tamaños,Silueta,ARI,NMI
+Clustering jerárquico,ward + euclidean,4,"[59, 41, 39, 11]",0.6143648648694832,0.7407438389854611,0.7879944588753116
+K-means,"init=k-means++, n_init=20",5,"[58, 42, 23, 14, 13]",0.6115213928894707,0.671149601827592,0.7419442749299275

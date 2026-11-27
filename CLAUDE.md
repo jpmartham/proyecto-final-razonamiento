@@ -8,6 +8,7 @@ cáncer de mama (ya terminado) y corpus de hojas (en desarrollo).
 ## Comandos
 - Entorno: `.venv\Scripts\Activate.ps1` y luego `pip install -r requirements.txt`
 - Ejecutar el notebook completo de principio a fin: `jupyter nbconvert --to notebook --execute --inplace notebooks/hojas.ipynb`
+- Generar el reporte PDF (después de ejecutar ambos notebooks, que exportan a `resultados/`): `python reporte/generar_reporte.py`
 
 ## Reglas
 - El estilo de código y de documentación lo define `notebooks/cancer_mama.ipynb`. No lo modifiques salvo que se te pida.
