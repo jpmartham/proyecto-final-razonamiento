@@ -225,10 +225,12 @@ def portada():
         p("Aprendizaje supervisado y no supervisado aplicado a un corpus de hojas "
           "y a la base de datos de cáncer de mama", "subtitulo"),
         Spacer(1, 3 * cm),
-        p("<b>Integrantes del equipo:</b> [PENDIENTE]", "portada"),
-        p("<b>Profesor:</b> [PENDIENTE]", "portada"),
-        p("<b>Institución:</b> [PENDIENTE]", "portada"),
-        p("<b>Fecha de entrega:</b> [PENDIENTE]", "portada"),
+        p("<b>Integrantes del equipo</b>", "portada"),
+        p("Juan Pablo Martha<br/>Andres Ruiz<br/>Jesus Arciniega", "portada"),
+        Spacer(1, 0.5 * cm),
+        p("<b>Profesor:</b> Miguel Angel Alvarez Carmona", "portada"),
+        p("<b>Institución:</b> Universidad Iberoamericana, Ciudad de México", "portada"),
+        p("<b>Fecha de entrega:</b> 27 de noviembre de 2026", "portada"),
         PageBreak(),
     ]
 
